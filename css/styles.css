@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf4f2;
+}
+
+.header {
+    background-color: #d49b89;
+}
+
+.header .divTop , .header .divBottom {
+    margin-left: 60px;
+}
+
+.header .divTop {
+    padding-top: 10px;
+}
+
+.header .divTop img {
+    width: 40px;
+    height: 40px;
+}
+
+.header .divBottom ul {
+    padding: 10px 0 10px 0;
+}
+
+.header .divBottom ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+/* --------Carousel--------- */
+
+.carousel {
+    background-image: url(../Image/BG.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ---------News-------------- */
+
+.news {
+    padding-top: 30px;
+    background-color: #faf4f2;
+}
+
+.news .news-top {
+    text-align: center;
+    color: gray;
+}
+
+.news .news-center {
+    display: flex;
+    justify-content: center;
+}
+
+.news .news-center .news-center-item-1 {
+    margin: 0 10px;
+}
+
+
+.news .news-center .news-center-item-1 {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
+
+.news .news-center .news-center-item-1 .item-top {
+    /* Rổ */
+    position: relative;
+
+}
+
+.news .news-center .news-center-item-1 .item-top img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.news .news-center .news-center-item-1 .item-top-img {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: transparent; */
+    /* background-color: red; */
+    line-height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    color: #d49b89;
+
+    /* chỉnh vị trí tương thích với div cha */
+    /* em bé */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+.item-bottom {
+
+}
+
+.item-bottom .item-bottom-title {
+    text-align: center;
+}
+
+.item-bottom .item-bottom-title h1 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.item-bottom .item-bottom-title p {
+    font-size: 13px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.item-bottom .item-bottom-details {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.item-bottom .item-bottom-details .btn {
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+}
+
+.item-bottom .item-bottom-details .btn:hover {
+    background-color: gray;
+    color: #d49b89;
+}
+
+
+
+.news-bottom {
+    text-align: center;
+    padding: 30px 0px 40px;
+}
+
+.news-bottom button {
+    padding: 10px 60px;
+    border-radius: 14px;
+    border: 1px solid pink;
+    background-color: #faf4f5;
+    color: pink;
+}
+
+.news-bottom button:hover {
+    background-color: pink;
+}
+
+/* End News */
+
+/* Start Download */
+.download {
+    display: flex;
+    color: gray;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #faf4f2;
+}
+
+.div-left {
+    background-image: url(../Image/mask.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 100%;
+    padding-left: 60px;
+
+}
+
+.div-right {
+    padding-top: 50px;
+}
+
+.div-right p {
+    margin-top: 20px;
+}
+
+.div-right-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bottom-social .img-social ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #e76f51;
+}
+
+
+.bottom-social h3, .bottom-app h3 {
+    margin-bottom: 17px;
+}
+
+/* End Download */
+    .ignore {
+        height: 50px;
+        background-color: #faf4f2;
+    }
+/* Start Ignore */
+    
+/* End Ignore */
+
+/* Start Contact */
+.contact {
+    background-color: #f8e1db;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.contact-content {
+    display: flex;
+    padding: 100px 40px 30px 80px;
+}
+
+.content-right {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.contact .content-left p {
+    padding-top: 20px;
+}
+
+.content-right-1 {
+    margin-right: 30px;
+}
+
+.content-right-1 h3 {
+    margin-bottom: 15px;
+}
+
+.content-right-1 p {
+    margin-top: 5px;
+}
+
+.contact-since {
+    text-align: center;
+    padding-bottom: 20px;
+}
